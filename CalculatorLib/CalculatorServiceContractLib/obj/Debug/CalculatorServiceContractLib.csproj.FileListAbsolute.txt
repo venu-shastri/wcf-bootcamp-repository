@@ -1,0 +1,12 @@
+C:\Users\user\source\repos\CalculatorLib\CalculatorServiceContractLib\bin\Debug\CalculatorServiceContractLib.dll
+C:\Users\user\source\repos\CalculatorLib\CalculatorServiceContractLib\bin\Debug\CalculatorServiceContractLib.pdb
+C:\Users\user\source\repos\CalculatorLib\CalculatorServiceContractLib\obj\Debug\CalculatorServiceContractLib.csprojAssemblyReference.cache
+C:\Users\user\source\repos\CalculatorLib\CalculatorServiceContractLib\obj\Debug\CalculatorServiceContractLib.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\CalculatorLib\CalculatorServiceContractLib\obj\Debug\CalculatorServiceContractLib.dll
+C:\Users\user\source\repos\CalculatorLib\CalculatorServiceContractLib\obj\Debug\CalculatorServiceContractLib.pdb
+D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\CalculatorServiceContractLib\bin\Debug\CalculatorServiceContractLib.dll
+D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\CalculatorServiceContractLib\bin\Debug\CalculatorServiceContractLib.pdb
+D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\CalculatorServiceContractLib\obj\Debug\CalculatorServiceContractLib.csprojAssemblyReference.cache
+D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\CalculatorServiceContractLib\obj\Debug\CalculatorServiceContractLib.csproj.CoreCompileInputs.cache
+D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\CalculatorServiceContractLib\obj\Debug\CalculatorServiceContractLib.dll
+D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\CalculatorServiceContractLib\obj\Debug\CalculatorServiceContractLib.pdb
