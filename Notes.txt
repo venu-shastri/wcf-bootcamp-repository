@@ -1,0 +1,42 @@
+WCF
+	System.ServiceModel.dll
+
+Service Oriented Architetcure 
+   1.SOAP Based	
+		1.SOAP : Simple Object Access Protocol
+			Envelope : "define standard message structure" - Aggreed Format for message exchange
+			SOAP -> XML Document Schema
+				<envelope>
+					<heade></header>
+					<body>
+						<!-- Message Payload -->
+					</body>
+				</envelope>
+			SOAP describes remote procedural request message and response message.
+
+		ex:
+			int Add(int x,int y)
+			{	
+
+			}
+
+			Request Message : Add(10,20);
+				<envelope>
+						<body>
+							<Add>
+							   <x>10</x>
+							   <y>20</y>
+							</Add>
+						</body>
+				</envelope>
+			Response Message
+				<envelope>
+					<body>
+					  <AddResponse>
+						<result>30</result>
+					  </AddResponse>
+					</body>
+				</envelope>
+	
+   2.REST Based
+	
