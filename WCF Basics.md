@@ -311,5 +311,61 @@ static void Main(string[] args)
    2. Signup (userId,username,password,email)
    3. Store User information in in memory List
    4. Publish Metadata (wsdl)
+   5. Configure Service using config file
 
 2.Build Dotnet client to test login and Signup functionality
+
+
+
+### How to share Complex Type Instance b/w Client and Server
+
+---
+
+- How to prepare data for serialization
+  - Add Reference - SystemR.Runtime.Serialization
+  - An-notate Class and Properties using [DataContract] and [DataMember] attribute Respectively
+
+### How to register service uisng Config File
+
+```xml
+//Server - App.config
+<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <startup> 
+        <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.7.2" />
+    </startup>
+  <!-- Service and Endpoint Registration -->
+  <system.serviceModel>
+    
+    <behaviors>
+      <serviceBehaviors>
+        <behavior name="PatientDataServiceMetadataBehavior">
+          <serviceMetadata httpGetEnabled="true" httpGetUrl="http://loclahost:8004/patientDatService/metadata"/>
+        </behavior>
+      </serviceBehaviors>
+    </behaviors>
+    <services> 
+      <service name="PatientDataServiceLib.PatientDataService" 
+               behaviorConfiguration="PatientDataServiceMetadataBehavior">
+        <endpoint contract="PatientDataServiceContractLib.IPatientDataService"
+                  binding="BasicHttpBinding" address="http://loclahost:8003/webep"></endpoint>
+      </service>
+    </services>
+  </system.serviceModel>
+</configuration>
+```
+
+
+
+```C#
+// TestServer - Main
+#region PatientDataServiceRegistration
+
+
+            wcf.ServiceHost _patientDataServiceHost = 
+                /* References Behvaior  End Point Details From app.config file */
+                new ServiceHost(typeof(PatientDataServiceLib.PatientDataService));
+            _patientDataServiceHost.Open();
+            #endregion
+```
+
