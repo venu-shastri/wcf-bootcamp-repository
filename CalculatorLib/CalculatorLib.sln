@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorServiceContractLib", "CalculatorServiceContractLib\CalculatorServiceContractLib.csproj", "{B380D47A-DBF4-4AAB-BCBF-BF06D7B249F8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFServiceClient", "WCFServiceClient\WCFServiceClient.csproj", "{5C875C43-F5CF-4DA0-8521-7295BC971DF7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{B380D47A-DBF4-4AAB-BCBF-BF06D7B249F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B380D47A-DBF4-4AAB-BCBF-BF06D7B249F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B380D47A-DBF4-4AAB-BCBF-BF06D7B249F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C875C43-F5CF-4DA0-8521-7295BC971DF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C875C43-F5CF-4DA0-8521-7295BC971DF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C875C43-F5CF-4DA0-8521-7295BC971DF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C875C43-F5CF-4DA0-8521-7295BC971DF7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

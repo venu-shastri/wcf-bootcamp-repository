@@ -37,6 +37,16 @@ namespace TestServer
             //WAN
             _wcfServiceHost.AddServiceEndpoint(_contract, new BasicHttpBinding(), "http://localhost:8001/wanep");
 
+            //Service Behavior to publish metadata (WSDL Document)
+            wcf.Description.ServiceMetadataBehavior _metadataBehavior = new wcf.Description.ServiceMetadataBehavior();
+            //Configure Behavior to publish metadata when ServiceHost recieves http-get request
+            _metadataBehavior.HttpGetEnabled = true;
+            //Define URL to download metadata;
+            _metadataBehavior.HttpGetUrl =new Uri( "http://localhost:8002/metadata"); // this address used only for metadata download 
+
+            //Add Behavior -> ServieHost
+            _wcfServiceHost.Description.Behaviors.Add(_metadataBehavior);
+
             _wcfServiceHost.Open();// ServiceHost availability for Client Requests
             
             Console.ReadKey();

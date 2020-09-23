@@ -8,7 +8,10 @@ C:\Users\user\source\repos\CalculatorLib\Client\obj\Debug\Client.csprojAssemblyR
 D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\Client\bin\Debug\Client.exe.config
 D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\Client\bin\Debug\Client.exe
 D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\Client\bin\Debug\Client.pdb
+D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\Client\bin\Debug\CalculatorServiceContractLib.dll
+D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\Client\bin\Debug\CalculatorServiceContractLib.pdb
 D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\Client\obj\Debug\Client.csprojAssemblyReference.cache
 D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
+D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\Client\obj\Debug\Client.csproj.CopyComplete
 D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\Client\obj\Debug\Client.exe
 D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\Client\obj\Debug\Client.pdb
