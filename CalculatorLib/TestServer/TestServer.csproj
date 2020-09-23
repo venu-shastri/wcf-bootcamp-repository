@@ -59,6 +59,18 @@
       <Project>{b380d47a-dbf4-4aab-bcbf-bf06d7b249f8}</Project>
       <Name>CalculatorServiceContractLib</Name>
     </ProjectReference>
+    <ProjectReference Include="..\DataModelsLib\DataModelsLib.csproj">
+      <Project>{c40ee148-8fdd-491d-8ba0-7094adb11e8f}</Project>
+      <Name>DataModelsLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PatientDataServiceContractLib\PatientDataServiceContractLib.csproj">
+      <Project>{dc1908ba-b0f6-42d9-88e1-e81880b7b831}</Project>
+      <Name>PatientDataServiceContractLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PatientDataServiceLib\PatientDataServiceLib.csproj">
+      <Project>{7a156d96-f0f9-4f46-88be-ff7313485664}</Project>
+      <Name>PatientDataServiceLib</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,0 +1,6 @@
+D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\PatientAdminConsole\bin\Debug\PatientAdminConsole.exe.config
+D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\PatientAdminConsole\bin\Debug\PatientAdminConsole.exe
+D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\PatientAdminConsole\bin\Debug\PatientAdminConsole.pdb
+D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\PatientAdminConsole\obj\Debug\PatientAdminConsole.csproj.CoreCompileInputs.cache
+D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\PatientAdminConsole\obj\Debug\PatientAdminConsole.exe
+D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\PatientAdminConsole\obj\Debug\PatientAdminConsole.pdb

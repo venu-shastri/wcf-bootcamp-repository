@@ -1,0 +1,9 @@
+D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\PatientDataServiceContractLib\bin\Debug\PatientDataServiceContractLib.dll
+D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\PatientDataServiceContractLib\bin\Debug\PatientDataServiceContractLib.pdb
+D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\PatientDataServiceContractLib\bin\Debug\DataModelsLib.dll
+D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\PatientDataServiceContractLib\bin\Debug\DataModelsLib.pdb
+D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\PatientDataServiceContractLib\obj\Debug\PatientDataServiceContractLib.csprojAssemblyReference.cache
+D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\PatientDataServiceContractLib\obj\Debug\PatientDataServiceContractLib.csproj.CoreCompileInputs.cache
+D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\PatientDataServiceContractLib\obj\Debug\PatientDataServiceContractLib.csproj.CopyComplete
+D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\PatientDataServiceContractLib\obj\Debug\PatientDataServiceContractLib.dll
+D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\PatientDataServiceContractLib\obj\Debug\PatientDataServiceContractLib.pdb

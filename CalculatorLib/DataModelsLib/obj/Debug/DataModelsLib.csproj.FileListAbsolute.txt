@@ -1,0 +1,5 @@
+D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\DataModelsLib\bin\Debug\DataModelsLib.dll
+D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\DataModelsLib\bin\Debug\DataModelsLib.pdb
+D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\DataModelsLib\obj\Debug\DataModelsLib.csproj.CoreCompileInputs.cache
+D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\DataModelsLib\obj\Debug\DataModelsLib.dll
+D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\DataModelsLib\obj\Debug\DataModelsLib.pdb

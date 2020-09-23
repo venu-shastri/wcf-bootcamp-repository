@@ -22,3 +22,9 @@ D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\TestServer\obj\
 D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\TestServer\obj\Debug\TestServer.csproj.CopyComplete
 D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\TestServer\obj\Debug\TestServer.exe
 D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\TestServer\obj\Debug\TestServer.pdb
+D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\TestServer\bin\Debug\DataModelsLib.dll
+D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\TestServer\bin\Debug\PatientDataServiceContractLib.dll
+D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\TestServer\bin\Debug\PatientDataServiceLib.dll
+D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\TestServer\bin\Debug\DataModelsLib.pdb
+D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\TestServer\bin\Debug\PatientDataServiceContractLib.pdb
+D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\TestServer\bin\Debug\PatientDataServiceLib.pdb

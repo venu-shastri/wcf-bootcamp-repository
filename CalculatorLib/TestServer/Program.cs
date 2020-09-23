@@ -13,7 +13,8 @@ namespace TestServer
         static void Main(string[] args)
         {
             Console.WriteLine("Server Started and Listening.....");
-           
+
+#region CalculatorService Registration
             //Host service or Service Instance
             wcf.ServiceHost _wcfServiceHost = new wcf.ServiceHost(typeof(CalculatorLib.Calculator));
             //Add Endpoint
@@ -48,7 +49,16 @@ namespace TestServer
             _wcfServiceHost.Description.Behaviors.Add(_metadataBehavior);
 
             _wcfServiceHost.Open();// ServiceHost availability for Client Requests
-            
+            #endregion
+            #region PatientDataServiceRegistration
+
+
+            wcf.ServiceHost _patientDataServiceHost = 
+                /* References Behvaior  End Point Details From app.config file */
+                new ServiceHost(typeof(PatientDataServiceLib.PatientDataService));
+            _patientDataServiceHost.Open();
+            #endregion
+
             Console.ReadKey();
         }
     }

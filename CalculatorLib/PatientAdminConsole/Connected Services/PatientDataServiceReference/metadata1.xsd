@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:8004/patientDatService/metadata?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/DataModelsLib" />
+  <xs:element name="GetAllPatients">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAllPatientsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/DataModelsLib" minOccurs="0" name="GetAllPatientsResult" nillable="true" type="q1:ArrayOfPatientInfo" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddNewPatient">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/DataModelsLib" minOccurs="0" name="newPatient" nillable="true" type="q2:PatientInfo" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddNewPatientResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="AddNewPatientResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RemovePatient">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="mrn" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RemovePatientResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="RemovePatientResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdatePatient">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="mrn" nillable="true" type="xs:string" />
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/DataModelsLib" minOccurs="0" name="updatedState" nillable="true" type="q3:PatientInfo" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdatePatientResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UpdatePatientResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
