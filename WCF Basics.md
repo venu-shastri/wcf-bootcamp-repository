@@ -302,3 +302,14 @@ static void Main(string[] args)
         }
 ```
 
+
+
+### Assignment
+
+1. Build AccountService with following operation
+   1. Login (userName, password)
+   2. Signup (userId,username,password,email)
+   3. Store User information in in memory List
+   4. Publish Metadata (wsdl)
+
+2.Build Dotnet client to test login and Signup functionality
