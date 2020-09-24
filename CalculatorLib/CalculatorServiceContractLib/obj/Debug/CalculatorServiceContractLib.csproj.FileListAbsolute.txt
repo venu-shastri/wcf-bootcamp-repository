@@ -9,3 +9,4 @@ D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\CalculatorServi
 D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\CalculatorServiceContractLib\obj\Debug\CalculatorServiceContractLib.csproj.CoreCompileInputs.cache
 D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\CalculatorServiceContractLib\obj\Debug\CalculatorServiceContractLib.dll
 D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\CalculatorServiceContractLib\obj\Debug\CalculatorServiceContractLib.pdb
+D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\CalculatorServiceContractLib\obj\Debug\CalculatorServiceContractLib.csprojAssemblyReference.cache

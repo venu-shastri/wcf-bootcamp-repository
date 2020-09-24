@@ -1,0 +1,12 @@
+D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\RestApiServer\obj\Debug\RestApiServer.csprojAssemblyReference.cache
+D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\RestApiServer\obj\Debug\RestApiServer.csproj.CoreCompileInputs.cache
+D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\RestApiServer\bin\Debug\RestApiServer.exe.config
+D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\RestApiServer\bin\Debug\RestApiServer.exe
+D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\RestApiServer\bin\Debug\RestApiServer.pdb
+D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\RestApiServer\bin\Debug\ServerStatusServiceContractLib.dll
+D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\RestApiServer\bin\Debug\ServerStatusServiceLib.dll
+D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\RestApiServer\bin\Debug\ServerStatusServiceContractLib.pdb
+D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\RestApiServer\bin\Debug\ServerStatusServiceLib.pdb
+D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\RestApiServer\obj\Debug\RestApiServer.csproj.CopyComplete
+D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\RestApiServer\obj\Debug\RestApiServer.exe
+D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\RestApiServer\obj\Debug\RestApiServer.pdb

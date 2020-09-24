@@ -1,0 +1,6 @@
+D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\ServerStatusServiceContractLib\bin\Debug\ServerStatusServiceContractLib.dll
+D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\ServerStatusServiceContractLib\bin\Debug\ServerStatusServiceContractLib.pdb
+D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\ServerStatusServiceContractLib\obj\Debug\ServerStatusServiceContractLib.csproj.CoreCompileInputs.cache
+D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\ServerStatusServiceContractLib\obj\Debug\ServerStatusServiceContractLib.dll
+D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\ServerStatusServiceContractLib\obj\Debug\ServerStatusServiceContractLib.pdb
+D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\ServerStatusServiceContractLib\obj\Debug\ServerStatusServiceContractLib.csprojAssemblyReference.cache
