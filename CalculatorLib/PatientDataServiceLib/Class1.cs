@@ -16,6 +16,27 @@ namespace PatientDataServiceLib
         public PatientDataService()
         {
             Console.WriteLine("PatientDataService Instantiated");
+            _db.Add(new PatientInfo
+            {
+                MRN = "MRN001",
+                Name = "Tom",
+                ContactNumber = "1234",
+                Address = new Address { City = "Blr", PinCode = "56007", State = "Ka", Street = "abc" }
+            });
+            _db.Add(new PatientInfo
+            {
+                MRN = "MRN002",
+                Name = "Hary",
+                ContactNumber = "1234",
+                Address = new Address { City = "Blr", PinCode = "56007", State = "Ka", Street = "abc" }
+            });
+            _db.Add(new PatientInfo
+            {
+                MRN = "MRN003",
+                Name = "Jack",
+                ContactNumber = "1234",
+                Address = new Address { City = "Blr", PinCode = "56007", State = "Ka", Street = "abc" }
+            });
         }
         public string AddNewPatient(PatientInfo newPatient)
         {
@@ -24,6 +45,7 @@ namespace PatientDataServiceLib
             return newPatient.MRN;
         }
 
+        //Enable Rest Api
         public IEnumerable<PatientInfo> GetAllPatients()
         {
             Console.WriteLine("Get All Patients Recieved New Request");
