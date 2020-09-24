@@ -1,0 +1,10 @@
+D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\RestClient\bin\Debug\RestClient.exe.config
+D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\RestClient\bin\Debug\RestClient.exe
+D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\RestClient\bin\Debug\RestClient.pdb
+D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\RestClient\obj\Debug\RestClient.csproj.CoreCompileInputs.cache
+D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\RestClient\obj\Debug\RestClient.exe
+D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\RestClient\obj\Debug\RestClient.pdb
+D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\RestClient\bin\Debug\DataModelsLib.dll
+D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\RestClient\bin\Debug\DataModelsLib.pdb
+D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\RestClient\obj\Debug\RestClient.csprojAssemblyReference.cache
+D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\RestClient\obj\Debug\RestClient.csproj.CopyComplete

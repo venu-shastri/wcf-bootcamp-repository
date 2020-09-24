@@ -1,0 +1,14 @@
+D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\PatientAdminRestConsole\bin\Debug\PatientAdminRestConsole.exe.config
+D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\PatientAdminRestConsole\bin\Debug\PatientAdminRestConsole.exe
+D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\PatientAdminRestConsole\bin\Debug\PatientAdminRestConsole.pdb
+D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\PatientAdminRestConsole\bin\Debug\PatientDataServiceContractLib.dll
+D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\PatientAdminRestConsole\bin\Debug\PatientDataServiceLib.dll
+D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\PatientAdminRestConsole\bin\Debug\DataModelsLib.dll
+D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\PatientAdminRestConsole\bin\Debug\PatientDataServiceContractLib.pdb
+D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\PatientAdminRestConsole\bin\Debug\PatientDataServiceLib.pdb
+D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\PatientAdminRestConsole\bin\Debug\DataModelsLib.pdb
+D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\PatientAdminRestConsole\obj\Debug\PatientAdminRestConsole.csprojAssemblyReference.cache
+D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\PatientAdminRestConsole\obj\Debug\PatientAdminRestConsole.csproj.CoreCompileInputs.cache
+D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\PatientAdminRestConsole\obj\Debug\PatientAdminRestConsole.csproj.CopyComplete
+D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\PatientAdminRestConsole\obj\Debug\PatientAdminRestConsole.exe
+D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\PatientAdminRestConsole\obj\Debug\PatientAdminRestConsole.pdb

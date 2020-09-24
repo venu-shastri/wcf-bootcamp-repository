@@ -3,4 +3,3 @@ D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\DataModelsLib\b
 D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\DataModelsLib\obj\Debug\DataModelsLib.csproj.CoreCompileInputs.cache
 D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\DataModelsLib\obj\Debug\DataModelsLib.dll
 D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\DataModelsLib\obj\Debug\DataModelsLib.pdb
-D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\DataModelsLib\obj\Debug\DataModelsLib.csprojAssemblyReference.cache

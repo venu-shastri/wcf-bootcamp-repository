@@ -4,16 +4,17 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DC1908BA-B0F6-42D9-88E1-E81880B7B831}</ProjectGuid>
-    <OutputType>Library</OutputType>
-    <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>PatientDataServiceContractLib</RootNamespace>
-    <AssemblyName>PatientDataServiceContractLib</AssemblyName>
+    <ProjectGuid>{0E4CD748-EF75-4290-BC27-E492CEBF7EC2}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>PatientAdminRestConsole</RootNamespace>
+    <AssemblyName>PatientAdminRestConsole</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -23,6 +24,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -43,13 +45,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IPatientDataService.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DataModelsLib\DataModelsLib.csproj">
-      <Project>{c40ee148-8fdd-491d-8ba0-7094adb11e8f}</Project>
-      <Name>DataModelsLib</Name>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PatientDataServiceContractLib\PatientDataServiceContractLib.csproj">
+      <Project>{dc1908ba-b0f6-42d9-88e1-e81880b7b831}</Project>
+      <Name>PatientDataServiceContractLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PatientDataServiceLib\PatientDataServiceLib.csproj">
+      <Project>{7a156d96-f0f9-4f46-88be-ff7313485664}</Project>
+      <Name>PatientDataServiceLib</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

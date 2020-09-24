@@ -58,7 +58,7 @@ namespace PatientDataServiceLib
             return false;
         }
 
-        public bool UpdatePatient(string mrn, PatientInfo updatedState)
+        public bool UpdatePatient(PatientInfo updatedState)
         {
             return false;
         }
