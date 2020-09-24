@@ -56,6 +56,7 @@ namespace TestServer
             wcf.ServiceHost _patientDataServiceHost = 
                 /* References Behvaior  End Point Details From app.config file */
                 new ServiceHost(typeof(PatientDataServiceLib.PatientDataService));
+            _patientDataServiceHost.Description.Behaviors.Add(new CustomServiceBehavior());
             _patientDataServiceHost.Open();
             #endregion
 

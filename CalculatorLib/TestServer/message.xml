@@ -1,0 +1,77 @@
+<s:Envelope xmlns:a="http://www.w3.org/2005/08/addressing" xmlns:s="http://www.w3.org/2003/05/soap-envelope">
+  <s:Header>
+    <a:Action s:mustUnderstand="1">http://tempuri.org/IPatientDataService/AddNewPatient</a:Action>
+    <a:MessageID>urn:uuid:cd64a756-2872-4648-b91a-dab97486bb09</a:MessageID>
+    <a:ReplyTo>
+      <a:Address>http://www.w3.org/2005/08/addressing/anonymous</a:Address>
+    </a:ReplyTo>
+    <a:To s:mustUnderstand="1">net.tcp://localhost:8005/lanep</a:To>
+  </s:Header>
+  <s:Body>
+    <AddNewPatient xmlns="http://tempuri.org/">
+      <newPatient xmlns:b="http://schemas.datacontract.org/2004/07/DataModelsLib" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <b:Address>
+          <b:City>BLR</b:City>
+          <b:PinCode>560007</b:PinCode>
+          <b:State>KA</b:State>
+          <b:Street>XYZ</b:Street>
+        </b:Address>
+        <b:ContactNumber>12345</b:ContactNumber>
+        <b:MRN>P001</b:MRN>
+        <b:Name>Tom</b:Name>
+      </newPatient>
+    </AddNewPatient>
+  </s:Body>
+</s:Envelope>
+**********************************************
+<s:Envelope xmlns:a="http://www.w3.org/2005/08/addressing" xmlns:s="http://www.w3.org/2003/05/soap-envelope">
+  <s:Header>
+    <a:Action s:mustUnderstand="1">http://tempuri.org/IPatientDataService/AddNewPatientResponse</a:Action>
+    <a:RelatesTo>urn:uuid:cd64a756-2872-4648-b91a-dab97486bb09</a:RelatesTo>
+  </s:Header>
+  <s:Body>
+    <AddNewPatientResponse xmlns="http://tempuri.org/">
+      <AddNewPatientResult>P001</AddNewPatientResult>
+    </AddNewPatientResponse>
+  </s:Body>
+</s:Envelope>
+**********************************************
+<s:Envelope xmlns:a="http://www.w3.org/2005/08/addressing" xmlns:s="http://www.w3.org/2003/05/soap-envelope">
+  <s:Header>
+    <a:Action s:mustUnderstand="1">http://tempuri.org/IPatientDataService/GetAllPatients</a:Action>
+    <a:MessageID>urn:uuid:3167b86e-cd9e-4277-a9f8-bcfd3f2abae2</a:MessageID>
+    <a:ReplyTo>
+      <a:Address>http://www.w3.org/2005/08/addressing/anonymous</a:Address>
+    </a:ReplyTo>
+    <a:To s:mustUnderstand="1">net.tcp://localhost:8005/lanep</a:To>
+  </s:Header>
+  <s:Body>
+    <GetAllPatients xmlns="http://tempuri.org/">
+    </GetAllPatients>
+  </s:Body>
+</s:Envelope>
+**********************************************
+<s:Envelope xmlns:a="http://www.w3.org/2005/08/addressing" xmlns:s="http://www.w3.org/2003/05/soap-envelope">
+  <s:Header>
+    <a:Action s:mustUnderstand="1">http://tempuri.org/IPatientDataService/GetAllPatientsResponse</a:Action>
+    <a:RelatesTo>urn:uuid:3167b86e-cd9e-4277-a9f8-bcfd3f2abae2</a:RelatesTo>
+  </s:Header>
+  <s:Body>
+    <GetAllPatientsResponse xmlns="http://tempuri.org/">
+      <GetAllPatientsResult xmlns:d4p1="http://schemas.datacontract.org/2004/07/DataModelsLib" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <d4p1:PatientInfo>
+          <d4p1:Address>
+            <d4p1:City>BLR</d4p1:City>
+            <d4p1:PinCode>560007</d4p1:PinCode>
+            <d4p1:State>KA</d4p1:State>
+            <d4p1:Street>XYZ</d4p1:Street>
+          </d4p1:Address>
+          <d4p1:ContactNumber>12345</d4p1:ContactNumber>
+          <d4p1:MRN>P001</d4p1:MRN>
+          <d4p1:Name>Tom</d4p1:Name>
+        </d4p1:PatientInfo>
+      </GetAllPatientsResult>
+    </GetAllPatientsResponse>
+  </s:Body>
+</s:Envelope>
+**********************************************

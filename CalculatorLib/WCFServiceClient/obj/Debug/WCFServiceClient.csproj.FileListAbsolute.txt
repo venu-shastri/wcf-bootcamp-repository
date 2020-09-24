@@ -1,7 +1,6 @@
 D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\WCFServiceClient\bin\Debug\WCFServiceClient.exe.config
 D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\WCFServiceClient\bin\Debug\WCFServiceClient.exe
 D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\WCFServiceClient\bin\Debug\WCFServiceClient.pdb
-D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\WCFServiceClient\obj\Debug\WCFServiceClient.csprojAssemblyReference.cache
 D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\WCFServiceClient\obj\Debug\WCFServiceClient.csproj.CoreCompileInputs.cache
 D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\WCFServiceClient\obj\Debug\WCFServiceClient.exe
 D:\knowledge\wcf_knowledge\wcf-bootcamp-repository\CalculatorLib\WCFServiceClient\obj\Debug\WCFServiceClient.pdb

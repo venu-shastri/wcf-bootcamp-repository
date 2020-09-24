@@ -11,7 +11,7 @@ namespace PatientAdminConsole
         static void Main(string[] args)
         {
             PatientDataServiceReference.PatientDataServiceClient _proxy =
-                new PatientDataServiceReference.PatientDataServiceClient("BasicHttpBinding_IPatientDataService");
+                new PatientDataServiceReference.PatientDataServiceClient("NetTcpBinding_IPatientDataService");
             PatientDataServiceReference.PatientInfo _patientObj = new PatientDataServiceReference.PatientInfo
             {
                 MRN = "P001",

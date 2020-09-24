@@ -218,7 +218,7 @@
                      _metadataBehavior.HttpGetEnabled = true;
                      //Define URL to download metadata;
                      _metadataBehavior.HttpGetUrl =new Uri( "http://localhost:8002/metadata"); // this address used only for metadata download 
-         
+            
                      //Add Behavior -> ServieHost
                      _wcfServiceHost.Description.Behaviors.Add(_metadataBehavior);
          ```
@@ -369,3 +369,10 @@ static void Main(string[] args)
             #endregion
 ```
 
+
+
+**WCF - Control Service Instance Activation**
+		- InstanceContextMode 
+			PerSession - default for tcp,namdpipe binding - Instance/Session
+			PerCall - default for http - instance/Message
+			Singleton - Single Instance / Number of sessions or Number of Messages

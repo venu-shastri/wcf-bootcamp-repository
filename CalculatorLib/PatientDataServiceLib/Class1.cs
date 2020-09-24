@@ -8,9 +8,15 @@ using System.Threading.Tasks;
 
 namespace PatientDataServiceLib
 {
+    [System.ServiceModel.ServiceBehavior(InstanceContextMode =System.ServiceModel.InstanceContextMode.Single)]
     public class PatientDataService : PatientDataServiceContractLib.IPatientDataService
     {
         List<DataModelsLib.PatientInfo> _db = new List<PatientInfo>();
+
+        public PatientDataService()
+        {
+            Console.WriteLine("PatientDataService Instantiated");
+        }
         public string AddNewPatient(PatientInfo newPatient)
         {
             Console.WriteLine("New Patient Details Recieved");
