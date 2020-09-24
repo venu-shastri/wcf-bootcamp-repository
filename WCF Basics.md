@@ -442,3 +442,19 @@ Http Method = Get
 
 ```
 
+
+
+REST - API -Assignment
+
+---
+
+### Assignment
+
+1. Build AccountService with following operation
+   1. Login (userName, password)
+   2. Signup (userId,username,password,email)
+   3. Store User information in in memory List
+   4. Configure Service using config file
+
+2.Build Dotnet client to test login and Signup functionality
+
