@@ -376,3 +376,69 @@ static void Main(string[] args)
 			PerSession - default for tcp,namdpipe binding - Instance/Session
 			PerCall - default for http - instance/Message
 			Singleton - Single Instance / Number of sessions or Number of Messages
+
+```C#
+
+    [System.ServiceModel.ServiceBehavior(InstanceContextMode =System.ServiceModel.InstanceContextMode.Single)]
+    public class PatientDataService : PatientDataServiceContractLib.IPatientDataService
+```
+
+
+
+WCF Supports for REST/WEB API
+
+----
+
+- System.ServiceModel.Web
+- An-notate service operations using [WebGet] or [WebInvoke] attributes
+  - [WebGet] - Maps Service Operation - Get Verb
+  - [WebInvoke] - Maps Service Operation - any verb like , GET,POST,PUT or Delete
+- Define REST Endpoint using webHttpBinding
+
+```C#
+ [System.ServiceModel.ServiceContract]
+    
+    public interface IServerStatusService
+    {
+        [System.ServiceModel.OperationContract]
+        //REST -style
+        //MAP http-verb and url template
+        [System.ServiceModel.Web.WebInvoke(
+            Method ="GET",
+            UriTemplate ="servertime",
+            ResponseFormat =System.ServiceModel.Web.WebMessageFormat.Json)]
+        string GetServerTimeStamp();
+    }
+```
+
+
+
+```C#
+  //Code
+            wcf.ServiceHost _serverStatusServiceHost =
+                new wcf.ServiceHost(typeof(ServerStatusServiceLib.ServerStatusService));
+            //rest client (web client) endpoint
+
+           var endpoint= _serverStatusServiceHost.AddServiceEndpoint(
+                typeof(ServerStatusServiceContractLib.IServerStatusService),
+                new wcf.WebHttpBinding(),
+                "http://localhost:8007/restservice");
+
+            //add endpointbehavior to process incoming http request as a rest api request
+            //enable web programming model
+
+            endpoint.EndpointBehaviors.Add(new WebHttpBehavior());
+
+            _serverStatusServiceHost.Open();
+            Console.WriteLine("Restserver Started");
+            Console.ReadKey();
+```
+
+```
+//URL = enpointUrl + uriTemplate
+GetServerTime()
+http://localhost:8007/restservice/servertime
+Http Method = Get
+
+```
+
